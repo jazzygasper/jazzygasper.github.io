@@ -1,4 +1,4 @@
-var jazzyWebsiteApp = angular.module('jazzyWebsiteApp', []);
+var jazzyWebsiteApp = angular.module('jazzyWebsiteApp', ['ngRoute']);
 
 jazzyWebsiteApp.config(function ($routeProvider, $locationProvider) {
 

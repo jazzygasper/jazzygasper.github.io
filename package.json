@@ -1,7 +1,8 @@
 {
-  "name": "jazzy-website",
+  "name": "jazzygasper.github.io",
   "version": "1.0.0",
   "description": "Basic App with AngularJS",
+  "main": "app/js/app.js",
   "scripts": {
     "prestart": "npm install",
     "postinstall": "bower install",
