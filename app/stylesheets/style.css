@@ -10,6 +10,10 @@ li {
   list-style-type: none;
 }
 
+a:hover{
+  color: #00BC92;
+}
+/*
 a.jazzygasper:hover {
     color: #00BC92;
 }
@@ -28,7 +32,7 @@ a.portfolio:hover {
 
 a.contact:hover {
     color: #45457E;
-}
+}*/
 
 div#menu {
   margin: 5% 0px 50px 5%;
