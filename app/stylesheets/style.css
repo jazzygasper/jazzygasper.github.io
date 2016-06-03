@@ -1,6 +1,52 @@
-div#menu a {
+ul {
+    list-style: none;
+    text-decoration: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+li {
   text-decoration: none !important;
   list-style-type: none;
-  font-size: 50px;
+}
+
+a.jazzygasper:hover {
+    color: #00BC92;
+}
+
+a.about:hover {
+    color: #008E89;
+}
+
+a.cv:hover {
+    color: #207685;
+}
+
+a.portfolio:hover {
+    color: #345D82;
+}
+
+a.contact:hover {
+    color: #45457E;
+}
+
+div#menu {
+  margin: 5% 0px 50px 5%;
+  width: 100%;
+  text-decoration: none !important;
+  list-style-type: none;
+  font-size: 16px;
   color: black;
+}
+
+p#welcome {
+  font-family:;
+  font-size: 160px;
+  color: #ccf9fb;
+}
+
+p#welcome:hover {
+  text-transform: lowercase;
+  font-size: 100px;
+  color: #00898e;
 }

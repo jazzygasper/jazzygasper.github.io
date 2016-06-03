@@ -67,6 +67,12 @@ module.exports = function(config) {
 
     // Concurrency level
     // how many browser should be started simultaneous
-    concurrency: Infinity
+    concurrency: Infinity,
+
+    onPrepare: function() {
+      var SpecReporter = require('jasmine-spec-reporter');
+      // add jasmine spec reporter
+      jasmine.getEnv().addReporter(new SpecReporter({displayStacktrace: 'all'}));
+   }
   })
 }
