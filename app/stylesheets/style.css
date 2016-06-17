@@ -26,30 +26,35 @@ a.jazzygasper:hover {
   background: -webkit-linear-gradient(left, #00BC92, #00A68E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #00BC92
 }
 
 a.about:hover {
   background: -webkit-linear-gradient(left, #00A68E, #008E89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #00A68E;
 }
 
 a.cv:hover {
   background: -webkit-linear-gradient(left, #008E89, #207685);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #008E89;
 }
 
 a.portfolio:hover {
   background: -webkit-linear-gradient(left, #207685, #345D82);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #207685;
 }
 
 a.contact:hover {
   background: -webkit-linear-gradient(left, #345D82, #45457E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #345D82;
 }
 
 div#menu {
@@ -118,18 +123,19 @@ div.portfolio-container {
   margin: 10px 10px 10px 60px;
 }
 
-div#playfest {
-  /*border: 1px solid #594F4F;*/
-  width: 650px;
-  margin: 0 auto;
-}
-
 div.portfolio-container a {
   color: #00BC92;
 }
 
 div.portfolio-container a:hover {
   color: #45457E;
+}
+
+div#playfest {
+  /*border: 1px solid #594F4F;*/
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 p#playfest-intro {
@@ -152,12 +158,14 @@ div#makers-bnb {
   /*border: 1px solid #594F4F;*/
   width: 650px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 div#goodfairy {
   /*border: 1px solid #594F4F;*/
   width: 650px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 div.contact-container {
@@ -180,4 +188,5 @@ div.contact-container a:hover{
   background: -webkit-linear-gradient(left, #00BC92, #45457E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: #345D82;
 }
