@@ -14,6 +14,10 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 div#menu a {
   font-size: 18px;
 }
@@ -57,6 +61,10 @@ div#menu {
   color: black;
 }
 
+div.home-container {
+  background: black;
+}
+
 p#welcome {
   font-size: 160px;
   color: #ccf9fb;
@@ -84,12 +92,6 @@ div.about-container p {
   margin-top: 100px;
 }
 
-div.portfolio-container {
-  border: 1px solid white;
-  width: 800px;
-  margin: 10px 10px 10px 60px;
-}
-
 div.cv-container {
   border: 1px solid white;
   width: 800px;
@@ -102,19 +104,42 @@ div.cv-content {
   margin-top: 140px;
 }
 
+div.cv-container a {
+  color: #00BC92;
+}
+
+div.cv-container a:hover {
+  color: #45457E;
+}
+
+div.portfolio-container {
+  border: 1px solid white;
+  width: 800px;
+  margin: 10px 10px 10px 60px;
+}
+
 div#playfest {
   /*border: 1px solid #594F4F;*/
   width: 650px;
   margin: 0 auto;
 }
 
+div.portfolio-container a {
+  color: #00BC92;
+}
+
+div.portfolio-container a:hover {
+  color: #45457E;
+}
+
 p#playfest-intro {
   width: 200px;
   float: left;
   margin-right: -50px;
+  margin-left: 50px;
 }
 
-h2#challenges {
+h2#playfest-challenges {
   margin-top: 400px;
 }
 
@@ -136,11 +161,23 @@ div#goodfairy {
 }
 
 div.contact-container {
-  border: 1px solid white;
+  /*border: 1px solid black;*/
   width: 800px;
   margin: 10px 10px 10px 60px;
 }
 
+div#contact-content {
+  /*border: 1px solid black;*/
+  padding-top: 100px;
+}
+
 div.contact-container a{
   text-decoration: none !important;
+  color: black;
+}
+
+div.contact-container a:hover{
+  background: -webkit-linear-gradient(left, #00BC92, #45457E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

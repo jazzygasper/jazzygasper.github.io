@@ -22,176 +22,169 @@
     </div>
 
     <script type="text/ng-template" id="home.html">
-      <div ng-view>
-        <h1></h1>
-        <p id="welcome">WELCOME<br>TO MY WEBSITE</p>
+      <div class="home-container" ng-view>
       </div>
     </script>
 
     <script type="text/ng-template" id="about.html">
-      <div ng-view>
-        <div class="about-container">
-          <h1>who is she?</h1>
-          <p>A creative junior developer/software engineer who is excited and enthusiastic about the potential of technology.
-            After recently graduating from Central Saint Martins and discovering my passion for coding,
-            I invested a lot of time and effort at Makers Academy to develop my programming skills.
-            I am now an ambitious coder and looking for a role that will help me grow as a developer.</p>
-        </div>
+      <div class="about-container" ng-view>
+        <h1>who is she?</h1>
+        <p>A creative junior developer/software engineer who is excited and enthusiastic about the potential of technology.
+          After recently graduating from Central Saint Martins and discovering my passion for coding,
+          I invested a lot of time and effort at Makers Academy to develop my programming skills.
+          I am now an ambitious coder and looking for a role that will help me grow as a developer.</p>
       </div>
     </script>
 
     <script type="text/ng-template" id="cv.html">
-      <div ng-view>
-        <div class="cv-container">
-          <h1>Jazzy Gasper</h1>
-          <div class="cv-content">
-            <p>A creative junior developer/software engineer who is excited and enthusiastic about the potential of technology.
-              After recently graduating from Central Saint Martins and discovering my passion for coding,
-              I invested a lot of time and effort at Makers Academy to develop my programming skills.
-              I am now an ambitious coder and looking for a role that will help me grow as a developer.</p>
-          <h2>Skills</h2>
-          <h3>Design</h3>
-            <p>At Central Saint Martins I majored in BA Graphic Design, specializing in Design and Interaction,
-              with a focus on digital media and marketing. I am meticulous, with a keen visual sense and focus on getting the details correct.
-              I believe my creativity and appreciation of visual aesthetics helps me to create beautiful and clean code.
-              I'm not just a coder executing a brief, I am also full of ideas and motivated to create amazing experiences for different people.</p>
-          <h2>Code Examples</h2>
-            <table style="width:100%">
-              <tr>
-                <td>Project Name</td>
-                <td>Description</td>
-                <td>Technologies</td>
-                <td>Testing</td>
-              </tr>
-              <tr>
-                <td><a href="https://github.com/eripheebs/playfest">Playfest</a></td>
-                <td>Phone app that creates a Spotify playlist by taking a picture<br>of a festival poster.</td>
-                <td>Javascript, Express,<br>Node.js, Ionic</td>
-                <td>Karma, Mocha,<br>Protractor</td>
-              </tr>
-              <tr>
-                <td><a href="https://github.com/eripheebs/makers_bnb">Makers bnb</a></td>
-                <td>Airbnb clone of basic features made in 5 days.</td>
-                <td>Ruby, Sinatra,<br>PostgreSQL</td>
-                <td>Rspec, Capybara</td>
-              </tr>
-              <tr>
-                <td><a href="https://github.com/gvonkoss/recommend-n-chill">Recommend'n'Chill</a></td>
-                <td>Creates a movie suggestion from an API based on manually<br>entered list of watched movies.</td>
-                <td>Javascript, Ruby,<br>Angular JS, Rails</td>
-                <td>Rspec, Karma,<br>Protractor</td>
-              </tr>
-              <tr>
-                <td><a href="http://thegoodfairy.london/">Thegoodfairy</a></td>
-                <td>University project: website to help the homeless in London,<br>creates a map of top 10 charities and services based on postcode.</td>
-                <td>Javascript</td>
-                <td></td>
-              </tr>
-            </table>
-          <h2>Education</h2>
-          <h3>Makers Academy (Feb – May 2016)</h3>
-            <p>Highly intensive and selective coding bootcamp.<p>
-            <ul>
-              <li>Curiosity and hungry passion for code</li>
-              <li>Teamwork and collaboration</li>
-              <li>Independent learner and problem-solver</li>
-              <li>OOP, TDD, SOLID, MVC, DDD</li>
-              <li>Software Craftsmanship</li>
-              <li>Ruby, Rails, Javascript, Node.js, Angular.js</li>
-              <li>Rspec, Jasmine, Mocha, Chai</li>
-            </ul>
-          <h3>Central Saint Martins College, London (2011 – 2015)</h3>
-          <p>Awarded BA (Hons) Graphic Design<br>
-            Focus on Design and Interaction including branding, web design, typography, advertising, and photography.</p>
-          <h3>Other Qualifications</h3>
-            <p>Obtained a preliminary certificate of Teaching English as a Foreign Language (TEFL).</p>
-          <h2>Various Part Time Roles</h2>
-            <p><span style="font-weight: bold">Off to Work, London</span> (October 2015 – December 2015)<br>
-            <span style="font-style: italic">Ice Marshall at Natural History Museum Ice Rink</span><br>
-              Ensured the safety of the public while doing some sick tricks on the ice</p>
-            <p><span style="font-weight: bold">Wrappers Delight, Bristol</span> ((May 2015 – October 2015)<br>
-            <span style="font-style: italic">Social Media Coordinator & Wrapper</span><br>
-              Created social media content to promote their festival catering business and made some killer wraps along the way</p>
-            <p><span style="font-weight: bold">LONDONTHEINSIDE, London</span> (July 2014 – December 2014)<br>
-            <span style="font-style: italic">Digital Media Assistant</span><br>
-              Managed their website<br>
-              Created weekly newsletters<br>
-              Wrote short feature articles</p>
-            <p><span style="font-weight: bold">Captured on the Rye, London</span> (September 2014 – December 2014)<br>
-            <span style="font-style: italic">Teaching Assistant</span><br>
-            Assisted with screen printing Birthday parties for children<br>
-            Created social media content<br>
-            Rebranded their website</p>
-          </div>
+      <div class="cv-container" ng-view>
+        <h1>Jazzy Gasper</h1>
+        <div class="cv-content">
+          <p>A creative junior developer/software engineer who is excited and enthusiastic about the potential of technology.
+            After recently graduating from Central Saint Martins and discovering my passion for coding,
+            I invested a lot of time and effort at Makers Academy to develop my programming skills.
+            I am now an ambitious coder and looking for a role that will help me grow as a developer.</p>
+        <h2>Skills</h2>
+        <h3>Design</h3>
+          <p>At Central Saint Martins I majored in BA Graphic Design, specializing in Design and Interaction,
+            with a focus on digital media and marketing. I am meticulous, with a keen visual sense and focus on getting the details correct.
+            I believe my creativity and appreciation of visual aesthetics helps me to create beautiful and clean code.
+            I'm not just a coder executing a brief, I am also full of ideas and motivated to create amazing experiences for different people.</p>
+        <h2>Code Examples</h2>
+          <table style="width:100%">
+            <tr>
+              <td>Project Name</td>
+              <td>Description</td>
+              <td>Technologies</td>
+              <td>Testing</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/eripheebs/playfest">Playfest</a></td>
+              <td>Phone app that creates a Spotify playlist by taking a picture<br>of a festival poster.</td>
+              <td>Javascript, Express,<br>Node.js, Ionic</td>
+              <td>Karma, Mocha,<br>Protractor</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/eripheebs/makers_bnb">Makers bnb</a></td>
+              <td>Airbnb clone of basic features made in 5 days.</td>
+              <td>Ruby, Sinatra,<br>PostgreSQL</td>
+              <td>Rspec, Capybara</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/gvonkoss/recommend-n-chill">Recommend'n'Chill</a></td>
+              <td>Creates a movie suggestion from an API based on manually<br>entered list of watched movies.</td>
+              <td>Javascript, Ruby,<br>Angular JS, Rails</td>
+              <td>Rspec, Karma,<br>Protractor</td>
+            </tr>
+            <tr>
+              <td><a href="http://thegoodfairy.london/">Thegoodfairy</a></td>
+              <td>University project: website to help the homeless in London,<br>creates a map of top 10 charities and services based on postcode.</td>
+              <td>Javascript</td>
+              <td></td>
+            </tr>
+          </table>
+        <h2>Education</h2>
+        <h3>Makers Academy (Feb – May 2016)</h3>
+          <p>Highly intensive and selective coding bootcamp.<p>
+          <ul>
+            <li>Curiosity and hungry passion for code</li>
+            <li>Teamwork and collaboration</li>
+            <li>Independent learner and problem-solver</li>
+            <li>OOP, TDD, SOLID, MVC, DDD</li>
+            <li>Software Craftsmanship</li>
+            <li>Ruby, Rails, Javascript, Node.js, Angular.js</li>
+            <li>Rspec, Jasmine, Mocha, Chai</li>
+          </ul>
+        <h3>Central Saint Martins College, London (2011 – 2015)</h3>
+        <p>Awarded BA (Hons) Graphic Design<br>
+          Focus on Design and Interaction including branding, web design, typography, advertising, and photography.</p>
+        <h3>Other Qualifications</h3>
+          <p>Obtained a preliminary certificate of Teaching English as a Foreign Language (TEFL).</p>
+        <h2>Various Part Time Roles</h2>
+          <p><span style="font-weight: bold">Off to Work, London</span> (October 2015 – December 2015)<br>
+          <span style="font-style: italic">Ice Marshall at Natural History Museum Ice Rink</span><br>
+            Ensured the safety of the public while doing some sick tricks on the ice</p>
+          <p><span style="font-weight: bold">Wrappers Delight, Bristol</span> ((May 2015 – October 2015)<br>
+          <span style="font-style: italic">Social Media Coordinator & Wrapper</span><br>
+            Created social media content to promote their festival catering business and made some killer wraps along the way</p>
+          <p><span style="font-weight: bold">LONDONTHEINSIDE, London</span> (July 2014 – December 2014)<br>
+          <span style="font-style: italic">Digital Media Assistant</span><br>
+            Managed their website<br>
+            Created weekly newsletters<br>
+            Wrote short feature articles</p>
+          <p><span style="font-weight: bold">Captured on the Rye, London</span> (September 2014 – December 2014)<br>
+          <span style="font-style: italic">Teaching Assistant</span><br>
+          Assisted with screen printing Birthday parties for children<br>
+          Created social media content<br>
+          Rebranded their website</p>
         </div>
       </div>
     </script>
 
     <script type="text/ng-template" id="portfolio.html">
-      <div ng-view>
-        <div class="portfolio-container">
-          <h1>portfolio</h1>
-          <img src="app/img/playfest-banner02.png">
-          <div id="playfest">
-          <h2>What is <span><a href="https://github.com/eripheebs/playfest">Playfest</a></span>?</h2>
-            <img id="playfest-img" src="app/img/playfest-screenshot.png">
-            <p id="playfest-intro">Playfest is an app in which the user can take a picture via their phone camera of a festival
-              or concert poster, log in to Spotify and get a playlist with the top ten songs of artists displayed
-              on that festival poster. The backend is built with Express and Node.js, and the frontend with Ionic
-              which uses AngularJS. Our app uses an optical character recognition (OCR) API and the spotify API.</p><br>
-          <h2 id="challenges">Challenges</h2>
-            <p>One challenge we faced was figuring out how our app could recognise which words on the poster were
-              relevant to creating our playlists. We tried a few approaches, for example identifying the festival by
-              location or dates and using the Songkick API to cross check the festival and then find relevant artists.
-              However, because there is no consistency in the appearance and format of this information from one poster
-              to the next, none of these strategies produced a reliable solution. We overcame this hurdle when we realised
-              that our OCR software could also recognise the relative size of the text displayed on the page and therefore,
-              since big acts are usually represented with larger text, we could tailor our code to identify those prominent
-              artists. Right now, the OCR is not perfect (for example, it cannot recognise some artists due to warped fonts),
-              but we feel happy we've reached a workable solution and will strive to keep improving our app.</p>
-          <h2>Demo</h2>
-            <iframe width="650" height="358.63" src="https://www.youtube.com/embed/OAF3pvoFZVU" frameborder="0" allowfullscreen></iframe>
-          </div>
+      <div class="portfolio-container" ng-view>
+        <h1>portfolio</h1>
+        <img src="app/img/playfest-banner02.png">
+        <div id="playfest">
+        <h2>What is <span><a href="https://github.com/eripheebs/playfest">Playfest</a></span>?</h2>
+          <img id="playfest-img" src="app/img/playfest-screenshot.png">
+          <p id="playfest-intro">Playfest is an app in which the user can take a picture via their phone camera of a festival
+            or concert poster, log in to Spotify and get a playlist with the top ten songs of artists displayed
+            on that festival poster. The backend is built with Express and Node.js, and the frontend with Ionic
+            which uses AngularJS. Our app uses an optical character recognition (OCR) API and the spotify API.</p><br>
+        <h2 id="playfest-challenges">Challenges</h2>
+          <p>One challenge we faced was figuring out how our app could recognise which words on the poster were
+            relevant to creating our playlists. We tried a few approaches, for example identifying the festival by
+            location or dates and using the Songkick API to cross check the festival and then find relevant artists.
+            However, because there is no consistency in the appearance and format of this information from one poster
+            to the next, none of these strategies produced a reliable solution. We overcame this hurdle when we realised
+            that our OCR software could also recognise the relative size of the text displayed on the page and therefore,
+            since big acts are usually represented with larger text, we could tailor our code to identify those prominent
+            artists. Right now, the OCR is not perfect (for example, it cannot recognise some artists due to warped fonts),
+            but we feel happy we've reached a workable solution and will strive to keep improving our app.</p>
+        <h2>Demo</h2>
+          <iframe width="650" height="358.63" src="https://www.youtube.com/embed/OAF3pvoFZVU" frameborder="0" allowfullscreen></iframe>
+        </div>
 
-          <img src="app/img/makersbnb-banner.png">
-          <div id="makers-bnb">
-            <h2>What is <span><a href="https://github.com/eripheebs/makers_bnb">Makers bnb</a></span>?</h2>
-              <p>Makersbnb is a web app created based on Airbnb to practice CRUD, users and managing edge cases.</p>
-              <p><span style="font-weight: bold">What can it do?</span><br>
-                Users can sign-up and log-in<br>
-                Users can list a new spaces<br>
-                Users can list multiple spaces<br>
-                Users can name their space, provide a short description of the space, and a price per night<br>
-                Users can offer a range of dates where their space is available<br>
-                Users can request to hire any space for a range of dates<br>
-                When a request has been made, it has to be approved by the user that owns that space<br>
-                Once it's approved, a booking is made<br>
-                Nights for which a space has already been booked are then no longer available for users to book that space<br>
-                Until a user has confirmed a booking request, that space can still be booked for that night<br>
-                Users receive an email every time they sign-up, request a space or have a space requested<br>
-                Users can pay for their booking through the Stripe API<br>
-                Additionally: we have a branch which has a chatroom for the site (branch 9-chat-functionality)</p>
-              <img style="width: 650px;" src="app/img/makersbnb-screenshot01.png">
-              <img style="width: 650px;" src="app/img/makersbnb-screenshot02.png">
-              <img style="width: 650px;" src="app/img/makersbnb-screenshot03.png">
-            </div>
-            <img src="app/img/thegoodfairy-banner.png">
-            <div id="goodfairy">
-          <h2>What is <span><a href="http://thegoodfairy.london/">thegoodfairy</a></span>?</h2>
-            <p>The good fairy is a university project based on critical graphic design. The websiteis to
-               help the homeless in London by creating a map of top 10 charities and services based on postcode.</p>
-           <img style="width: 650px;" src="app/img/thegoodfairy-screenshot01.png">
-           <img style="width: 650px;" src="app/img/thegoodfairy-screenshot02.png">
-         </div>
+        <img src="app/img/makersbnb-banner.png">
+        <div id="makers-bnb">
+          <h2>What is <span><a href="https://github.com/eripheebs/makers_bnb">Makers bnb</a></span>?</h2>
+            <p>Makersbnb is a web app created based on Airbnb to practice CRUD, users and managing edge cases.</p>
+            <p><span style="font-weight: bold">What can it do?</span><br>
+              Users can sign-up and log-in<br>
+              Users can list a new spaces<br>
+              Users can list multiple spaces<br>
+              Users can name their space, provide a short description of the space, and a price per night<br>
+              Users can offer a range of dates where their space is available<br>
+              Users can request to hire any space for a range of dates<br>
+              When a request has been made, it has to be approved by the user that owns that space<br>
+              Once it's approved, a booking is made<br>
+              Nights for which a space has already been booked are then no longer available for users to book that space<br>
+              Until a user has confirmed a booking request, that space can still be booked for that night<br>
+              Users receive an email every time they sign-up, request a space or have a space requested<br>
+              Users can pay for their booking through the Stripe API<br>
+              Additionally: we have a branch which has a chatroom for the site (branch 9-chat-functionality)</p>
+            <img style="width: 650px;" src="app/img/makersbnb-screenshot01.png">
+            <img style="width: 650px;" src="app/img/makersbnb-screenshot02.png">
+            <img style="width: 650px;" src="app/img/makersbnb-screenshot03.png">
+          </div>
+          <img src="app/img/thegoodfairy-banner.png">
+          <div id="goodfairy">
+        <h2>What is <span><a href="http://thegoodfairy.london/">thegoodfairy</a></span>?</h2>
+          <p>The good fairy is a university project based on critical graphic design. The websiteis to
+             help the homeless in London by creating a map of top 10 charities and services based on postcode.</p>
+         <img style="width: 650px;" src="app/img/thegoodfairy-screenshot01.png">
+         <img style="width: 650px;" src="app/img/thegoodfairy-screenshot02.png">
         </div>
       </div>
     </script>
 
     <script type="text/ng-template" id="contact.html">
-      <div ng-view>
-        <div class="contact-container">
-          <h1>contact</h1>
+      <div class="contact-container" ng-view>
+        <h1>contact</h1>
+        <div id="contact-content">
           <p>Email: jasmina.gasper@gmail.com</p>
+          <p><a href="https://uk.linkedin.com/in/jasmina-gasper-3a0346a1">LinkedIn: Jasmina Gasper</a></p>
           <p><a href="https://github.com/jazzygasper">Github: jazzygasper</a></p>
           <p><a href="https://twitter.com/jazzygasper">Twitter: @jazzygasper</a></p>
         </div>
