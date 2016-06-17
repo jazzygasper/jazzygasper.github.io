@@ -19,8 +19,6 @@ angular.module('jazzyWebsiteApp', [])
 
     $scope.currentTab = 'home.html';
 
-    $scope.header = 'angular shiz';
-
     $scope.onClickTab = function(tab) {
         $scope.currentTab = tab.url;
     }

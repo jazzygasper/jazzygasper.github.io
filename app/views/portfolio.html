@@ -1,0 +1,54 @@
+<script type="text/ng-template" id="portfolio.html">
+  <div ng-view>
+
+
+
+    <h1>portfolio</h1>
+    <img src="app/img/playfest-banner02.png">
+    <h2>What is <span><a href="https://github.com/eripheebs/playfest">Playfest</a></span>?</h2>
+      <img src="app/img/playfest-screenshot.png">
+      <p>Playfest is an app in which the user can take a picture via their phone camera of a festival
+        or concert poster, log in to Spotify and get a playlist with the top ten songs of artists displayed
+        on that festival poster. The backend is built with Express and Node.js, and the frontend with Ionic
+        which uses AngularJS. Our app uses an optical character recognition (OCR) API and the spotify API.</p>
+    <h2>Challenges</h2>
+      <p>One challenge we faced was figuring out how our app could recognise which words on the poster were
+        relevant to creating our playlists. We tried a few approaches, for example identifying the festival by
+        location or dates and using the Songkick API to cross check the festival and then find relevant artists.
+        However, because there is no consistency in the appearance and format of this information from one poster
+        to the next, none of these strategies produced a reliable solution. We overcame this hurdle when we realised
+        that our OCR software could also recognise the relative size of the text displayed on the page and therefore,
+        since big acts are usually represented with larger text, we could tailor our code to identify those prominent
+        artists. Right now, the OCR is not perfect (for example, it cannot recognise some artists due to warped fonts),
+        but we feel happy we've reached a workable solution and will strive to keep improving our app.</p>
+    <h2>Demo</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OAF3pvoFZVU" frameborder="0" allowfullscreen></iframe>
+    <img src="app/img/makersbnb-banner.png">
+    <h2>What is <span><a href="https://github.com/eripheebs/makers_bnb">Makers bnb</a></span>?</h2>
+      <p>Makersbnb is a web app created based on Airbnb to practice CRUD, users and managing edge cases.</p>
+      <p><span style="font-weight: bold">What can it do?</span><br>
+        Users can sign-up and log-in<br>
+        Users can list a new spaces<br>
+        Users can list multiple spaces<br>
+        Users can name their space, provide a short description of the space, and a price per night<br>
+        Users can offer a range of dates where their space is available<br>
+        Users can request to hire any space for a range of dates<br>
+        When a request has been made, it has to be approved by the user that owns that space<br>
+        Once it's approved, a booking is made<br>
+        Nights for which a space has already been booked are then no longer available for users to book that space<br>
+        Until a user has confirmed a booking request, that space can still be booked for that night<br>
+        Users receive an email every time they sign-up, request a space or have a space requested<br>
+        Users can pay for their booking through the Stripe API<br>
+        Additionally: we have a branch which has a chatroom for the site (branch 9-chat-functionality)</p>
+        <img style="width: 800px;" src="app/img/makersbnb-screenshot01.png">
+        <img style="width: 800px;" src="app/img/makersbnb-screenshot02.png">
+        <img style="width: 800px;" src="app/img/makersbnb-screenshot03.png">
+        <img src="app/img/thegoodfairy-banner.png">
+        <h2>What is <span><a href="http://thegoodfairy.london/">thegoodfairy</a></span>?</h2>
+        <p>The good fairy is a university project based on critical graphic design. The websiteis to
+           help the homeless in London by creating a map of top 10 charities and services based on postcode.</p>
+         <img style="width: 800px;" src="app/img/thegoodfairy-screenshot01.png">
+         <img style="width: 800px;" src="app/img/thegoodfairy-screenshot02.png">
+
+  </div>
+</script>

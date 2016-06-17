@@ -1,3 +1,7 @@
+body {
+  font-family: futura;
+}
+
 ul {
     list-style: none;
     text-decoration: none !important;
@@ -10,29 +14,39 @@ li {
   list-style-type: none;
 }
 
-a:hover{
-  color: #00BC92;
+div#menu a {
+  font-size: 18px;
 }
-/*
+
 a.jazzygasper:hover {
-    color: #00BC92;
+  background: -webkit-linear-gradient(left, #00BC92, #00A68E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a.about:hover {
-    color: #008E89;
+  background: -webkit-linear-gradient(left, #00A68E, #008E89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a.cv:hover {
-    color: #207685;
+  background: -webkit-linear-gradient(left, #008E89, #207685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a.portfolio:hover {
-    color: #345D82;
+  background: -webkit-linear-gradient(left, #207685, #345D82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a.contact:hover {
-    color: #45457E;
-}*/
+  background: -webkit-linear-gradient(left, #345D82, #45457E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 div#menu {
   margin: 5% 0px 50px 5%;
@@ -44,7 +58,6 @@ div#menu {
 }
 
 p#welcome {
-  font-family:;
   font-size: 160px;
   color: #ccf9fb;
 }
@@ -53,4 +66,81 @@ p#welcome:hover {
   text-transform: lowercase;
   font-size: 100px;
   color: #00898e;
+}
+
+h1 {
+  font-size: 50px;
+  float: right;
+}
+
+div.about-container {
+  border: 1px solid white;
+  width: 800px;
+  margin: 10px 10px 10px 60px;
+}
+
+div.about-container p {
+  border: 1px solid white;
+  margin-top: 100px;
+}
+
+div.portfolio-container {
+  border: 1px solid white;
+  width: 800px;
+  margin: 10px 10px 10px 60px;
+}
+
+div.cv-container {
+  border: 1px solid white;
+  width: 800px;
+  margin: 10px 10px 10px 60px;
+}
+
+div.cv-content {
+  /*border: 1px solid #594F4F;*/
+  width: 800px;
+  margin-top: 140px;
+}
+
+div#playfest {
+  /*border: 1px solid #594F4F;*/
+  width: 650px;
+  margin: 0 auto;
+}
+
+p#playfest-intro {
+  width: 200px;
+  float: left;
+  margin-right: -50px;
+}
+
+h2#challenges {
+  margin-top: 400px;
+}
+
+img#playfest-img {
+  float: left;
+  width: 240px;
+}
+
+div#makers-bnb {
+  /*border: 1px solid #594F4F;*/
+  width: 650px;
+  margin: 0 auto;
+}
+
+div#goodfairy {
+  /*border: 1px solid #594F4F;*/
+  width: 650px;
+  margin: 0 auto;
+}
+
+div.contact-container {
+  border: 1px solid white;
+  width: 800px;
+  margin: 10px 10px 10px 60px;
+}
+
+div.contact-container a{
+  text-decoration: none !important;
 }
