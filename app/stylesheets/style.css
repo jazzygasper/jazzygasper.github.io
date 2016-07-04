@@ -1,12 +1,138 @@
 body {
   font-family: futura;
 }
+/*
+div.home-container > div {
+  display: inline-block;
+}*/
+
+div.first-row {
+  margin-right: 110px;
+}
+
+div.second-row {
+  float: right;
+  /*margin-right: 20px;*/
+}
+
+div.third-row {
+  float: right;
+  margin-right: 90px;
+}
+
+div.fourth-row {
+  float: right;
+  /*position: relative;*/
+  margin-right: 20px;
+}
+
+#triangle1 {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #00A68E;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle1:hover {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #00BC92;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle2 {
+    width: 0;
+    height: 0;
+    border-top: 200px solid #207685;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+    margin: 0px -90px 0px -90px;
+}
+
+#triangle2:hover {
+    width: 0;
+    height: 0;
+    border-top: 200px solid #345D82;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+    margin: 0px -90px 0px -90px;
+}
+
+#triangle3 {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #45457E;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#triangle3:hover {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #00A68E;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle4 {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #008E89;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle4:hover {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #345D82;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle5 {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #345D82;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#triangle5:hover {
+    width: 0;
+    height: 0;
+    border-bottom: 200px solid #008E89;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    float: right;
+    margin-bottom: 10px;
+}
 
 div.cv-content ul {
-    list-style: none;
-    text-decoration: none !important;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  text-decoration: none !important;
+  padding: 0;
+  margin: 0;
 }
 
 div.cv-content li {
@@ -29,7 +155,16 @@ div#menu a {
   font-size: 18px;
 }
 
+div#menu
+
 a.jazzygasper:hover {
+  background: -webkit-linear-gradient(left, #00BC92, #00A68E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #00BC92
+}
+
+a.jazzygasper.active {
   background: -webkit-linear-gradient(left, #00BC92, #00A68E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -43,7 +178,21 @@ a.about:hover {
   color: #00A68E;
 }
 
+a.about.active {
+  background: -webkit-linear-gradient(left, #00A68E, #008E89);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #00A68E;
+}
+
 a.cv:hover {
+  background: -webkit-linear-gradient(left, #008E89, #207685);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #008E89;
+}
+
+a.cv.active {
   background: -webkit-linear-gradient(left, #008E89, #207685);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,7 +206,21 @@ a.portfolio:hover {
   color: #207685;
 }
 
+a.portfolio.active {
+  background: -webkit-linear-gradient(left, #207685, #345D82);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #207685;
+}
+
 a.contact:hover {
+  background: -webkit-linear-gradient(left, #345D82, #45457E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #345D82;
+}
+
+a.contact.active {
   background: -webkit-linear-gradient(left, #345D82, #45457E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,10 +234,6 @@ div#menu {
   list-style-type: none;
   font-size: 16px;
   color: black;
-}
-
-div.home-container {
-  background: black;
 }
 
 p#welcome {
