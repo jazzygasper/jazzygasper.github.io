@@ -1,1 +1,1 @@
-var jazzyWebsiteApp = angular.module('jazzyWebsiteApp', ['TabController']);
+var jazzyWebsiteApp = angular.module('jazzyWebsiteApp', ['PortfolioController', 'TabController']);

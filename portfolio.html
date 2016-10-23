@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js"></script>
+<script src="app/js/controllers/PortfolioController.js"></script>
+<link rel="stylesheet" href="app/stylesheets/style.css"/>
+<meta charset=utf-8 />
+<title>Portfolio</title>
+</head>
+<body ng-app='jazzyWebsiteApp'>
+  <div ng-controller='PortfolioController'>
+    <div>
+    <img ng-click='toggleModal()' id="portfolio-menu" src="app/img/playfest-banner02.png">
+    <modal-dialog show='modalShown' >
+      <div id="playfest">
+      <h2>What is <span><a href="https://github.com/jazzygasper/playfest">Playfest</a></span>?</h2>
+        <img id="playfest-img" src="app/img/playfest-screenshot.png">
+        <p id="playfest-intro">Playfest is an app in which the user can take a picture via their phone camera of a festival
+          or concert poster, log in to Spotify and get a playlist with the top ten songs of artists displayed
+          on that festival poster. The back end is built with Express and Node.js, and the front end with Ionic
+          which uses AngularJS. Our app uses an optical character recognition (OCR) API and the spotify API.</p><br>
+      <h2 id="playfest-challenges">Challenges</h2>
+        <p>One challenge we faced was figuring out how our app could recognise which words on the poster were
+          relevant to creating our playlists. We tried a few approaches, for example identifying the festival by
+          location or dates and using the Songkick API to cross check the festival and then find relevant artists.
+          However, because there is no consistency in the appearance and format of this information from one poster
+          to the next, none of these strategies produced a reliable solution. We overcame this hurdle when we realised
+          that our OCR software could also recognise the relative size of the text displayed on the page and therefore,
+          since big acts are usually represented with larger text, we could tailor our code to identify those prominent
+          artists. Right now, the OCR is not perfect (for example, it cannot recognise some artists due to warped fonts),
+          but we feel happy we've reached a workable solution and will strive to keep improving our app.</p>
+      <h2>Demo</h2>
+        <iframe width="650" height="358.63" src="https://www.youtube.com/embed/OAF3pvoFZVU" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </modal-dialog>
+  </div>
+
+    <div>
+    <img ng-click='toggleModal()' id="portfolio-menu" src="app/img/makersbnb-banner.png">
+    <modal-dialog show='modalShown' >
+      <div id="makers-bnb">
+        <h2>What is <span><a href="https://github.com/jazzygasper/makers_bnb">Makers BnB</a></span>?</h2>
+          <p>Makers BnB is a web app created based on Airbnb to practice CRUD, users and managing edge cases.</p>
+          <p><span style="font-weight: bold">What can it do?</span><br>
+          <ul>
+            <li>Users can sign-up and log-in</li>
+            <li>Users can list new spaces</li>
+            <li>Users can list multiple spaces</li>
+            <li>Users can name their space, provide a short description of the space, and a price per night</li>
+            <li>Users can offer a range of dates where their space is available</li>
+            <li>Users can request to hire any space for a range of dates</li>
+            <li>When a request has been made, it has to be approved by the user that owns that space</li>
+            <li>Once it's approved, a booking is made</li>
+            <li>Nights for which a space has already been booked are then no longer available for users to book that space</li>
+            <li>Until a user has confirmed a booking request, that space can still be booked for that night</li>
+            <li>Users receive an email every time they sign-up, request a space or have a space requested</li>
+            <li>Users can pay for their booking through the Stripe API</li>
+            <li>Additionally: we have a branch which has a chatroom for the site (branch 9-chat-functionality)</li>
+          </ul>
+          <img style="width: 650px;" src="app/img/makersbnb-screenshot01.png">
+          <img style="width: 650px;" src="app/img/makersbnb-screenshot02.png">
+          <img style="width: 650px;" src="app/img/makersbnb-screenshot03.png">
+        </div>
+    </modal-dialog>
+  </div>
+
+    <div>
+    <img ng-click='toggleModal()' id="portfolio-menu" src="app/img/thegoodfairy-banner.png">
+    <modal-dialog show='modalShown' >
+      <div id="goodfairy">
+        <h2>What is <span><a href="http://thegoodfairy.london/">thegoodfairy</a></span>?</h2>
+        <p>The Good Fairy is my university project, which I based on the principles and practices of critical graphic design. The websiteis to
+           help the homeless in London by creating a map of top 10 charities and services based on postcode.</p>
+       <img style="width: 650px;" src="app/img/thegoodfairy-screenshot01.png">
+       <img style="width: 650px;" src="app/img/thegoodfairy-screenshot02.png">
+       <img style="width: 650px;" src="app/img/thegoodfairy-screenshot03.jpg">
+       <img style="width: 650px;" src="app/img/thegoodfairy-screenshot04.jpg">
+    </div>
+    </modal-dialog>
+  </div>
+  </div>
+</body>
+</html>
