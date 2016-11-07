@@ -96,7 +96,7 @@
 
     <script type="text/ng-template" id="cv.html">
       <div class="cv-container" ng-view>
-        <h1>Jazzy Gasper</h1>
+        <h1>Jazzy Gasper</h1></br>
         <div class="cv-content">
           <p>A creative junior developer/software engineer who is excited and enthusiastic about the potential of technology.
             After recently graduating from Central Saint Martins and discovering my passion for coding,
@@ -191,6 +191,23 @@
       <div class="portfolio-container" ng-view>
         <h1>portfolio</h1>
         <!-- <div ng-controller='PortfolioController'> -->
+        <img ng-click='toggleModal()' id="portfolio-menu" src="app/img/openindex-banner.png">
+        <modal-dialog show='modalShown' >
+          <div id="openindex">
+          <h2>What is <span><a href="https://github.com/LGBT-hackers/open_index">Open Index</a></span>?</h2>
+            <p id="openindex-intro">Open Index was created for the Facebook x Intertech 24hr Hackathon with the theme #makestuffbetter.
+              It aims to be a well-rounded indicator of minority group experiences across companies.
+              Users can search companies, populated from the glassdoor api, read and leave ratings and reviews reviews left by others.
+              Not only will this benefit potential and current employees, but also encourage companies to improve their diversity schemes in order to increase their Open Index!
+            </p></br>
+            <img id="openindex-img" src="app/img/openindex-screenshot.png"></br>
+            <h2>Future Plans:</h2>
+            <p>Including more categories of questions to cover different aspects of diversity including BME and gender inequality (which means more leaderboards!).
+            Support workplaces in recruiting members of the LGBT community by being able to post job ads.
+            Also refactor the code and add more tests.</p>
+          </div>
+        </modal-dialog>
+
           <img ng-click='toggleModal()' id="portfolio-menu" src="app/img/playfest-banner02.png">
           <modal-dialog show='modalShown' >
             <div id="playfest">

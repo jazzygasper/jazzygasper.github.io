@@ -342,11 +342,15 @@ div.ng-modal-close {
   display: inline-block;
 }
 
-div#playfest {
+#openindex, #playfest, #makers-bnb, #goodfairy {
   /*border: 1px solid #594F4F;*/
   width: 650px;
   margin: 0 auto;
   padding-bottom: 100px;
+}
+
+#openindex-img {
+  width: 650px;
 }
 
 p#playfest-intro {
@@ -363,20 +367,6 @@ h2#playfest-challenges {
 img#playfest-img {
   float: left;
   width: 240px;
-}
-
-div#makers-bnb {
-  /*border: 1px solid #594F4F;*/
-  width: 650px;
-  margin: 0 auto;
-  padding-bottom: 100px;
-}
-
-div#goodfairy {
-  /*border: 1px solid #594F4F;*/
-  width: 650px;
-  margin: 0 auto;
-  padding-bottom: 100px;
 }
 
 div.contact-container {
